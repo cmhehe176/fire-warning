@@ -1,0 +1,257 @@
+<mxfile host="app.diagrams.net" modified="2023-11-23T16:07:31.446Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="-U6Uh62bdr5yWcOZ1xk-" version="22.1.3" type="device">
+  <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
+    <mxGraphModel dx="1469" dy="810" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7baba1c4bc27f4b0-2" value="Wifi" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="240" y="80" width="100" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="7baba1c4bc27f4b0-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="7baba1c4bc27f4b0-2" vertex="1">
+          <mxGeometry x="45" y="96" width="10" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="nI8wbM8Z-jG2XdsL9lHm-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" parent="7baba1c4bc27f4b0-2" vertex="1">
+          <mxGeometry x="45" y="480" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nI8wbM8Z-jG2XdsL9lHm-14" value="Khởi tạo GPIO cho DHT11" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;exitX=0.984;exitY=0.26;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.008;entryY=0.767;entryDx=0;entryDy=0;entryPerimeter=0;" parent="7baba1c4bc27f4b0-2" target="7baba1c4bc27f4b0-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-83.99999999999989" y="310.6000000000002" as="sourcePoint" />
+            <mxPoint x="366.86" y="309.99999999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nI8wbM8Z-jG2XdsL9lHm-15" value="Khởi tạo GPIO cho MQ-5" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;exitX=0.984;exitY=0.26;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.085;entryY=0.767;entryDx=0;entryDy=0;entryPerimeter=0;" parent="7baba1c4bc27f4b0-2" target="7baba1c4bc27f4b0-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-83.99999999999989" y="350.17000000000013" as="sourcePoint" />
+            <mxPoint x="524.9200000000001" y="350.24999999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QxkbIgd6ca-KLNZ7R7ek-5" value="Khởi tạo GPIO cho ModulSim800L" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;exitX=0.984;exitY=0.26;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.091;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="7baba1c4bc27f4b0-2" target="QxkbIgd6ca-KLNZ7R7ek-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-82.99999999999989" y="396.1700000000001" as="sourcePoint" />
+            <mxPoint x="925" y="396" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7baba1c4bc27f4b0-3" value="FireBase" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="400" y="80" width="100" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="7baba1c4bc27f4b0-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="7baba1c4bc27f4b0-3" vertex="1">
+          <mxGeometry x="45" y="190" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nI8wbM8Z-jG2XdsL9lHm-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" parent="7baba1c4bc27f4b0-3" vertex="1">
+          <mxGeometry x="45" y="520" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nI8wbM8Z-jG2XdsL9lHm-25" value="Connect to FireBase" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;exitX=-0.02;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;" parent="7baba1c4bc27f4b0-3" source="nI8wbM8Z-jG2XdsL9lHm-8" edge="1">
+          <mxGeometry x="0.0919" y="-10" relative="1" as="geometry">
+            <mxPoint x="919" y="540" as="sourcePoint" />
+            <mxPoint x="55" y="539.4" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7baba1c4bc27f4b0-4" value="Sensor DHT11" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="720" y="80" width="100" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="7baba1c4bc27f4b0-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="7baba1c4bc27f4b0-4" vertex="1">
+          <mxGeometry x="45" y="280" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7baba1c4bc27f4b0-5" value="Sensor MQ-5" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="860" y="80" width="100" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="7baba1c4bc27f4b0-19" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="7baba1c4bc27f4b0-5" vertex="1">
+          <mxGeometry x="45" y="320" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7baba1c4bc27f4b0-6" value="Flame Sensor" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1119" y="81" width="96" height="579" as="geometry" />
+        </mxCell>
+        <mxCell id="nI8wbM8Z-jG2XdsL9lHm-16" value="Khởi tạo GPIO cho&amp;nbsp;Flame Sensor" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;exitX=0.984;exitY=0.26;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.053;entryY=0.755;entryDx=0;entryDy=0;entryPerimeter=0;" parent="7baba1c4bc27f4b0-6" target="7baba1c4bc27f4b0-28" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-963.9999999999999" y="427.1700000000001" as="sourcePoint" />
+            <mxPoint x="-215.85000000000014" y="427.68000000000006" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7baba1c4bc27f4b0-28" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="7baba1c4bc27f4b0-6" vertex="1">
+          <mxGeometry x="45" y="397" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7baba1c4bc27f4b0-25" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" parent="7baba1c4bc27f4b0-6" vertex="1">
+          <mxGeometry x="171" y="437" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nI8wbM8Z-jG2XdsL9lHm-17" value="Khởi tạo GPIO cho còi" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;exitX=1.044;exitY=0.733;exitDx=0;exitDy=0;exitPerimeter=0;" parent="7baba1c4bc27f4b0-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-963.5600000000002" y="465.49" as="sourcePoint" />
+            <mxPoint x="171" y="466" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7baba1c4bc27f4b0-7" value="Còi&amp;nbsp;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1245" y="80" width="100" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="7baba1c4bc27f4b0-8" value="ESP 32" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="100" y="80" width="100" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="7baba1c4bc27f4b0-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="7baba1c4bc27f4b0-8" vertex="1">
+          <mxGeometry x="45" y="40" width="10" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="nI8wbM8Z-jG2XdsL9lHm-2" value="Connect success" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="7baba1c4bc27f4b0-8" edge="1">
+          <mxGeometry x="-0.0033" relative="1" as="geometry">
+            <mxPoint x="55" y="130" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="130" y="130" />
+              <mxPoint x="160" y="130" />
+            </Array>
+            <mxPoint x="185" y="130" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nI8wbM8Z-jG2XdsL9lHm-4" value="Connect success" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="7baba1c4bc27f4b0-8" edge="1">
+          <mxGeometry x="-0.0033" relative="1" as="geometry">
+            <mxPoint x="55" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="350" y="230" />
+              <mxPoint x="160" y="230" />
+            </Array>
+            <mxPoint x="343" y="230" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7baba1c4bc27f4b0-11" value="Connect to Wifi" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" source="7baba1c4bc27f4b0-9" target="7baba1c4bc27f4b0-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="190" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nI8wbM8Z-jG2XdsL9lHm-1" value="App" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1385" y="80" width="100" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="nI8wbM8Z-jG2XdsL9lHm-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" parent="nI8wbM8Z-jG2XdsL9lHm-1" vertex="1">
+          <mxGeometry x="45" y="480" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nI8wbM8Z-jG2XdsL9lHm-3" value="Connect to project in FireBase" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;entryX=-0.003;entryY=0.012;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.984;exitY=0.26;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="7baba1c4bc27f4b0-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="154.84000000000003" y="271" as="sourcePoint" />
+            <mxPoint x="445.3599999999999" y="271" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nI8wbM8Z-jG2XdsL9lHm-11" value="LCD" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="560" y="80" width="100" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="nI8wbM8Z-jG2XdsL9lHm-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="nI8wbM8Z-jG2XdsL9lHm-11" vertex="1">
+          <mxGeometry x="45" y="240" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nI8wbM8Z-jG2XdsL9lHm-5" value="Khởi tạo GPIO cho LCD" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;exitX=0.984;exitY=0.26;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.05;entryY=0.508;entryDx=0;entryDy=0;entryPerimeter=0;" parent="nI8wbM8Z-jG2XdsL9lHm-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-405.35999999999984" y="268.92" as="sourcePoint" />
+            <mxPoint x="45.5" y="268.31999999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nI8wbM8Z-jG2XdsL9lHm-32" value="FireBase" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="2120" y="80" width="100" height="705" as="geometry" />
+        </mxCell>
+        <mxCell id="nI8wbM8Z-jG2XdsL9lHm-33" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="nI8wbM8Z-jG2XdsL9lHm-32" vertex="1">
+          <mxGeometry x="45" y="280" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="nI8wbM8Z-jG2XdsL9lHm-60" value="Update Data lên FireBase" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;exitX=0.956;exitY=0.428;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.055;entryY=0.135;entryDx=0;entryDy=0;entryPerimeter=0;" parent="nI8wbM8Z-jG2XdsL9lHm-32" target="nI8wbM8Z-jG2XdsL9lHm-33" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-515.1500000000001" y="299.72" as="sourcePoint" />
+            <mxPoint x="45" y="301.68000000000006" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nI8wbM8Z-jG2XdsL9lHm-63" value="Trả về các giá trị &lt;br&gt;lưu từ FireBase" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;entryX=0.964;entryY=0.816;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.964;exitY=0.816;exitDx=0;exitDy=0;exitPerimeter=0;" parent="nI8wbM8Z-jG2XdsL9lHm-32" source="nI8wbM8Z-jG2XdsL9lHm-33" edge="1">
+          <mxGeometry x="-0.0033" relative="1" as="geometry">
+            <mxPoint x="209.13999999999987" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="184.13999999999987" y="410" />
+              <mxPoint x="154.13999999999987" y="410" />
+            </Array>
+            <mxPoint x="-30" y="410.76" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nI8wbM8Z-jG2XdsL9lHm-37" value="Sensor" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1800" y="80" width="100" height="705" as="geometry" />
+        </mxCell>
+        <mxCell id="nI8wbM8Z-jG2XdsL9lHm-38" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="nI8wbM8Z-jG2XdsL9lHm-37" vertex="1">
+          <mxGeometry x="45" y="80" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nI8wbM8Z-jG2XdsL9lHm-58" value="Trả về các giá trị đo được" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;entryX=1.086;entryY=0.124;entryDx=0;entryDy=0;entryPerimeter=0;" parent="nI8wbM8Z-jG2XdsL9lHm-37" target="nI8wbM8Z-jG2XdsL9lHm-46" edge="1">
+          <mxGeometry x="0.2172" y="-12" relative="1" as="geometry">
+            <mxPoint x="-85" y="140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-10" y="140" />
+              <mxPoint x="20" y="140" />
+            </Array>
+            <mxPoint x="45" y="140" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nI8wbM8Z-jG2XdsL9lHm-43" value="Còi&amp;nbsp;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="2441" y="80" width="100" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="nI8wbM8Z-jG2XdsL9lHm-44" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" parent="nI8wbM8Z-jG2XdsL9lHm-43" vertex="1">
+          <mxGeometry x="45" y="480" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nI8wbM8Z-jG2XdsL9lHm-45" value="ESP 32" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1550" y="80" width="100" height="704" as="geometry" />
+        </mxCell>
+        <mxCell id="nI8wbM8Z-jG2XdsL9lHm-46" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="nI8wbM8Z-jG2XdsL9lHm-45" vertex="1">
+          <mxGeometry x="45" y="80" width="10" height="588" as="geometry" />
+        </mxCell>
+        <mxCell id="nI8wbM8Z-jG2XdsL9lHm-50" value="App" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="2281" y="80" width="100" height="702" as="geometry" />
+        </mxCell>
+        <mxCell id="nI8wbM8Z-jG2XdsL9lHm-51" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" parent="nI8wbM8Z-jG2XdsL9lHm-50" vertex="1">
+          <mxGeometry x="45" y="360" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nI8wbM8Z-jG2XdsL9lHm-53" value="LCD" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1961" y="80" width="100" height="702" as="geometry" />
+        </mxCell>
+        <mxCell id="nI8wbM8Z-jG2XdsL9lHm-54" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="nI8wbM8Z-jG2XdsL9lHm-53" vertex="1">
+          <mxGeometry x="45" y="200" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nI8wbM8Z-jG2XdsL9lHm-59" value="Hiển thị các giá trị đo được trên LCD" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;entryX=0.006;entryY=0.215;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="nI8wbM8Z-jG2XdsL9lHm-54" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1606" y="288.14" as="sourcePoint" />
+            <mxPoint x="1845.0700000000002" y="288.29999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nI8wbM8Z-jG2XdsL9lHm-62" value="Lấy dữ liệu tử FireBase&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;exitX=0.995;exitY=0.557;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.995;entryY=0.557;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="nI8wbM8Z-jG2XdsL9lHm-33" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2330" y="450" as="sourcePoint" />
+            <mxPoint x="2180" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nI8wbM8Z-jG2XdsL9lHm-64" value="Bật còi" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;entryX=-0.02;entryY=0.425;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="nI8wbM8Z-jG2XdsL9lHm-46" target="nI8wbM8Z-jG2XdsL9lHm-44" edge="1">
+          <mxGeometry x="-0.0002" relative="1" as="geometry">
+            <mxPoint x="1606" y="576.1399999999999" as="sourcePoint" />
+            <mxPoint x="2485.43" y="576.0799999999999" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nI8wbM8Z-jG2XdsL9lHm-24" value="Connect to Wifi" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;exitX=-0.374;exitY=0.219;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.018;entryY=0.416;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="nI8wbM8Z-jG2XdsL9lHm-7" edge="1" source="nI8wbM8Z-jG2XdsL9lHm-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1324.7999999999997" y="576.3600000000001" as="sourcePoint" />
+            <mxPoint x="295" y="575" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QxkbIgd6ca-KLNZ7R7ek-3" value="ModulSim800L" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="986" y="80" width="100" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="QxkbIgd6ca-KLNZ7R7ek-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="QxkbIgd6ca-KLNZ7R7ek-3">
+          <mxGeometry x="45" y="373" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QxkbIgd6ca-KLNZ7R7ek-6" value="ModulSim800L" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2582" y="81" width="100" height="699" as="geometry" />
+        </mxCell>
+        <mxCell id="QxkbIgd6ca-KLNZ7R7ek-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#FFFFFF;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="QxkbIgd6ca-KLNZ7R7ek-6">
+          <mxGeometry x="45" y="589" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QxkbIgd6ca-KLNZ7R7ek-8" value="Thực hiện cuộc gọi" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1" source="nI8wbM8Z-jG2XdsL9lHm-46" target="QxkbIgd6ca-KLNZ7R7ek-6">
+          <mxGeometry x="-0.0002" relative="1" as="geometry">
+            <mxPoint x="1615" y="587" as="sourcePoint" />
+            <mxPoint x="2496" y="587" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="2068" y="695" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
